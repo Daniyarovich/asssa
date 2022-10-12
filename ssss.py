@@ -159,13 +159,13 @@ def newmain():
     matrix56= []
     matrix67= []
     matrix78 = []
-    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=0&token=USDT&fiat=RUB&paymentMethod=75",d, d1,d2,d3,d4,d5,d6,d7)
+    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=0&token=USDT&fiat=RUB&paymentMethod=14",d, d1,d2,d3,d4,d5,d6,d7)
    
-    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=0&token=BTC&fiat=RUB&paymentMethod=75",d, d1,d2,d3,d4,d5,d6,d7)
+    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=0&token=BTC&fiat=RUB&paymentMethod=14",d, d1,d2,d3,d4,d5,d6,d7)
 
-    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=0&token=ETH&fiat=RUB&paymentMethod=75",d, d1,d2,d3,d4,d5,d6,d7)
+    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=0&token=ETH&fiat=RUB&paymentMethod=14",d, d1,d2,d3,d4,d5,d6,d7)
    
-    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=0&token=USDC&fiat=RUB&paymentMethod=75",d, d1,d2,d3,d4,d5,d6,d7)
+    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=0&token=USDC&fiat=RUB&paymentMethod=14",d, d1,d2,d3,d4,d5,d6,d7)
     matrix11.append(d)
     matrix12.append(d1)
     matrix23.append(d2)
@@ -175,14 +175,14 @@ def newmain():
     matrix67.append(d6)
     matrix78.append(d7)
    
-    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=0&token=USDT&fiat=RUB&paymentMethod=185",e, e1,e2,e3,e4,e5,e6,e7) 
+    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=0&token=USDT&fiat=RUB&paymentMethod=51",e, e1,e2,e3,e4,e5,e6,e7) 
    
-    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=BTC&fiat=RUB&paymentMethod=185",e, e1,e2,e3,e4,e5,e6,e7) 
+    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=BTC&fiat=RUB&paymentMethod=51",e, e1,e2,e3,e4,e5,e6,e7) 
     
    
-    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=0&token=ETH&fiat=RUB&paymentMethod=185",e, e1,e2,e3,e4,e5,e6,e7) 
+    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=0&token=ETH&fiat=RUB&paymentMethod=51",e, e1,e2,e3,e4,e5,e6,e7) 
   
-    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=0&token=USDC&fiat=RUB&paymentMethod=185",e, e1,e2,e3,e4,e5,e6,e7) 
+    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=0&token=USDC&fiat=RUB&paymentMethod=51",e, e1,e2,e3,e4,e5,e6,e7) 
     matrix11.append(e)
     matrix12.append(e1)
     matrix23.append(e2)
@@ -191,13 +191,13 @@ def newmain():
     matrix56.append(e5)
     matrix67.append(e6)
     matrix78.append(e7)
-    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=0&token=USDT&fiat=RUB&paymentMethod=377",f, f1,f2,f3,f4,f5,f6,f7) 
+    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=0&token=USDT&fiat=RUB&paymentMethod=5",f, f1,f2,f3,f4,f5,f6,f7) 
    
-    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=0&token=BTC&fiat=RUB&paymentMethod=377",f, f1,f2,f3,f4,f5,f6,f7) 
+    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=0&token=BTC&fiat=RUB&paymentMethod=5",f, f1,f2,f3,f4,f5,f6,f7) 
    
-    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=0&token=ETH&fiat=RUB&paymentMethod=377",f, f1,f2,f3,f4,f5,f6,f7) 
+    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=0&token=ETH&fiat=RUB&paymentMethod=5",f, f1,f2,f3,f4,f5,f6,f7) 
     
-    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=0&token=USDS&fiat=RUB&paymentMethod=377",f, f1,f2,f3,f4,f5,f6,f7) 
+    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=0&token=USDS&fiat=RUB&paymentMethod=5",f, f1,f2,f3,f4,f5,f6,f7) 
     matrix11.append(f)
     matrix12.append(f1)
     matrix23.append(f2)
@@ -209,21 +209,14 @@ def newmain():
       
     
 
-    wks1.update_values('G4-J6', matrix11)    
-    wks1.update_values('G18-J20', matrix12)   
-    wks1.update_values('G32-J34', matrix23) 
-    wks1.update_values('G46-J48', matrix34)    
-    wks1.update_values('G60-J62', matrix45)   
-    wks1.update_values('G74-J76', matrix56) 
-    wks1.update_values('G88-J90', matrix67)    
-    wks1.update_values('G102-J104', matrix78)  
-    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=USDT&fiat=RUB&paymentMethod=75",a, a1,a2,a3,a4,a5,a6,a7)
+    
+    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=USDT&fiat=RUB&paymentMethod=14",a, a1,a2,a3,a4,a5,a6,a7)
 
-    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=BTC&fiat=RUB&paymentMethod=75",a, a1,a2,a3,a4,a5,a6,a7)
+    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=BTC&fiat=RUB&paymentMethod=14",a, a1,a2,a3,a4,a5,a6,a7)
    
-    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=ETH&fiat=RUB&paymentMethod=75",a, a1,a2,a3,a4,a5,a6,a7)
+    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=ETH&fiat=RUB&paymentMethod=14",a, a1,a2,a3,a4,a5,a6,a7)
 
-    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=USDC&fiat=RUB&paymentMethod=75",a, a1,a2,a3,a4,a5,a6,a7)
+    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=USDC&fiat=RUB&paymentMethod=14",a, a1,a2,a3,a4,a5,a6,a7)
     matrix.append(a)
     matrix1.append(a1)
     matrix2.append(a2)
@@ -233,13 +226,13 @@ def newmain():
     matrix6.append(a6)
     matrix7.append(a7)
    
-    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=USDT&fiat=RUB&paymentMethod=185",b, b1,b2,b3,b4,b5,b6,b7) 
+    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=USDT&fiat=RUB&paymentMethod=51",b, b1,b2,b3,b4,b5,b6,b7) 
    
-    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=BTC&fiat=RUB&paymentMethod=185",b, b1,b2,b3,b4,b5,b6,b7) 
+    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=BTC&fiat=RUB&paymentMethod=51",b, b1,b2,b3,b4,b5,b6,b7) 
     
-    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=ETH&fiat=RUB&paymentMethod=185",b, b1,b2,b3,b4,b5,b6,b7) 
+    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=ETH&fiat=RUB&paymentMethod=51",b, b1,b2,b3,b4,b5,b6,b7) 
    
-    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=USDC&fiat=RUB&paymentMethod=185",b, b1,b2,b3,b4,b5,b6,b7) 
+    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=USDC&fiat=RUB&paymentMethod=51",b, b1,b2,b3,b4,b5,b6,b7) 
     matrix.append(b)
     matrix1.append(b1)
     matrix2.append(b2)
@@ -248,13 +241,13 @@ def newmain():
     matrix5.append(b5)
     matrix6.append(b6)
     matrix7.append(b7)
-    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=USDT&fiat=RUB&paymentMethod=377",c, c1,c2,c3,c4,c5,c6,c7) 
+    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=USDT&fiat=RUB&paymentMethod=5",c, c1,c2,c3,c4,c5,c6,c7) 
   
-    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=BTC&fiat=RUB&paymentMethod=377",c, c1,c2,c3,c4,c5,c6,c7) 
+    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=BTC&fiat=RUB&paymentMethod=5",c, c1,c2,c3,c4,c5,c6,c7) 
    
-    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=ETH&fiat=RUB&paymentMethod=377",c, c1,c2,c3,c4,c5,c6,c7) 
+    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=ETH&fiat=RUB&paymentMethod=5",c, c1,c2,c3,c4,c5,c6,c7) 
     
-    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=USDS&fiat=RUB&paymentMethod=377",c, c1,c2,c3,c4,c5,c6,c7) 
+    insertvalue("https://www.bybit.com/fiat/trade/otc/?actionType=1&token=USDS&fiat=RUB&paymentMethod=5",c, c1,c2,c3,c4,c5,c6,c7) 
     matrix.append(c)
     matrix1.append(c1)
     matrix2.append(c2)
@@ -263,14 +256,22 @@ def newmain():
     matrix5.append(c5)
     matrix6.append(c6)
     matrix7.append(c7)
-    wks1.update_values('B4-E6', matrix)    
-    wks1.update_values('B18-E20', matrix1)   
-    wks1.update_values('B32-E34', matrix2) 
-    wks1.update_values('B46-E48', matrix3)    
-    wks1.update_values('B60-E62', matrix4)   
-    wks1.update_values('B74-E76', matrix5) 
-    wks1.update_values('B88-E90', matrix6)    
-    wks1.update_values('B102-E104', matrix7) 
+    wks1.update_values('G13-J15', matrix)    
+    wks1.update_values('G27-J30', matrix1)   
+    wks1.update_values('G41-J43', matrix2) 
+    wks1.update_values('G55-J57', matrix3)    
+    wks1.update_values('G69-J71', matrix4)   
+    wks1.update_values('G84-J86', matrix5) 
+    wks1.update_values('G97-J99', matrix6)    
+    wks1.update_values('G111-J113', matrix7)     
+    wks1.update_values('G13-J15', matrix11)    
+    wks1.update_values('G27-J30', matrix12)   
+    wks1.update_values('G41-J43', matrix23) 
+    wks1.update_values('G55-J57', matrix34)    
+    wks1.update_values('G69-J71', matrix45)   
+    wks1.update_values('G84-J86', matrix56) 
+    wks1.update_values('G97-J99', matrix67)    
+    wks1.update_values('G111-J113', matrix78)  
 while True:
     newmain()
     time.sleep(0)
